@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "原辅料查看",
+  "usingComponents": {
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uni-search-bar": "../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uv-empty": "../../uni_modules/uv-empty/components/uv-empty/uv-empty"
+  }
+}

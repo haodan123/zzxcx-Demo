@@ -1,0 +1,297 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/relogin/relogin",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/erbiao/erbiao",
+			"style": {
+				"navigationBarTitleText": "选择耳标"
+			}
+		}
+
+	],
+	"subPackages": [
+
+		// 种植
+		{
+			"root": "pagesZhongzhi",
+			"pages": [{
+					"path": "nsbzck/nsbzck",
+					"style": {
+						"navigationBarTitleText": "农事标准查看"
+					}
+				}, {
+					"path": "czbzck/czbzck",
+					"style": {
+						"navigationBarTitleText": "采摘标准查看"
+					}
+				}, {
+					"path": "spbzck/spbzck",
+					"style": {
+						"navigationBarTitleText": "商品标准查看"
+					}
+				}, {
+					"path": "scjh/scjh",
+					"style": {
+						"navigationBarTitleText": "生产计划"
+					}
+				}, {
+					"path": "shengchengsp/shengchengsp",
+					"style": {
+						"navigationBarTitleText": "生成商品"
+					}
+				}, {
+					"path": "shengchengspAdd/shengchengspAdd",
+					"style": {
+						"navigationBarTitleText": "生成商品"
+					}
+				}, {
+					"path": "nzruku/nzruku",
+					"style": {
+						"navigationBarTitleText": "农资入库"
+					}
+				}, {
+					"path": "nzrukuAdd/nzrukuAdd",
+					"style": {
+						"navigationBarTitleText": "农资入库"
+					}
+				}, {
+					"path": "nzchuku/nzchuku",
+					"style": {
+						"navigationBarTitleText": "农资出库"
+					}
+				}, {
+					"path": "nzchukuAdd/nzchukuAdd",
+					"style": {
+						"navigationBarTitleText": "农资出库"
+					}
+				}, {
+					"path": "zwruku/zwruku",
+					"style": {
+						"navigationBarTitleText": "作物入库"
+					}
+				}, {
+					"path": "zwrukuAdd/zwrukuAdd",
+					"style": {
+						"navigationBarTitleText": "作物入库"
+					}
+				}, {
+					"path": "zwchuku/zwchuku",
+					"style": {
+						"navigationBarTitleText": "作物出库"
+					}
+				}, {
+					"path": "zwchukuAdd/zwchukuAdd",
+					"style": {
+						"navigationBarTitleText": "作物出库"
+					}
+				}, {
+					"path": "nsrwxf/nsrwxf",
+					"style": {
+						"navigationBarTitleText": "农事任务下发"
+					}
+				}, {
+					"path": "nsrw/nsrw",
+					"style": {
+						"navigationBarTitleText": "农事任务"
+					}
+				}, {
+					"path": "nsrwzx/nsrwzx",
+					"style": {
+						"navigationBarTitleText": "农事任务执行"
+					}
+				}, {
+					"path": "shangxiaban/shangxiaban",
+					"style": {
+						"navigationBarTitleText": "上班"
+					}
+				}
+
+
+
+
+			]
+		}, // 加工
+		{
+			"root": "pagesJiagong",
+			"pages": [{
+					"path": "jglcck/jglcck",
+					"style": {
+						"navigationBarTitleText": "加工流程查看"
+					}
+				},
+				{
+					"path": "cpchuku/cpchuku",
+					"style": {
+						"navigationBarTitleText": "成品出库"
+					}
+				},
+				{
+					"path": "cpchukuAdd/cpchukuAdd",
+					"style": {
+						"navigationBarTitleText": "成品出库"
+					}
+				},
+				{
+					"path": "cpruku/cpruku",
+					"style": {
+						"navigationBarTitleText": "成品入库"
+					}
+				},
+				{
+					"path": "cprukuAdd/cprukuAdd",
+					"style": {
+						"navigationBarTitleText": "成品入库"
+					}
+				},
+				{
+					"path": "jgruku/jgruku",
+					"style": {
+						"navigationBarTitleText": "加工入库"
+					}
+				},
+				{
+					"path": "jgrukuAdd/jgrukuAdd",
+					"style": {
+						"navigationBarTitleText": "加工入库"
+					}
+				}, {
+					"path": "jgchuku/jgchuku",
+					"style": {
+						"navigationBarTitleText": "加工出库"
+					}
+				},
+				{
+					"path": "jgchukuAdd/jgchukuAdd",
+					"style": {
+						"navigationBarTitleText": "加工出库"
+					}
+				}, {
+					"path": "jcjilu/jcjilu",
+					"style": {
+						"navigationBarTitleText": "检测记录"
+					}
+				},
+				{
+					"path": "jcjiluAdd/jcjiluAdd",
+					"style": {
+						"navigationBarTitleText": "检测记录"
+					}
+				}, {
+					"path": "jgsycj/jgsycj",
+					"style": {
+						"navigationBarTitleText": "加工溯源检测"
+					}
+				},
+				{
+					"path": "jgsycjAdd/jgsycjAdd",
+					"style": {
+						"navigationBarTitleText": "加工溯源检测"
+					}
+				}, {
+					"path": "scsp/scsp",
+					"style": {
+						"navigationBarTitleText": "生成商品"
+					}
+				},
+				{
+					"path": "scspAdd/scspAdd",
+					"style": {
+						"navigationBarTitleText": "生成商品"
+					}
+				},
+				{
+					"path": "yflck/yflck",
+					"style": {
+						"navigationBarTitleText": "原辅料查看"
+					}
+				},
+				{
+					"path": "scdd/scdd",
+					"style": {
+						"navigationBarTitleText": "生产调度"
+					}
+				},
+				{
+					"path": "scddAdd/scddAdd",
+					"style": {
+						"navigationBarTitleText": "生产调度"
+					}
+				},
+				{
+					"path": "scjh/scjh",
+					"style": {
+						"navigationBarTitleText": "生产计划"
+					}
+				},
+				{
+					"path": "scjhAdd/scjhAdd",
+					"style": {
+						"navigationBarTitleText": "生产计划"
+					}
+				}
+
+
+			]
+		},
+
+		{
+			"root": "pagesGonggao",
+			"pages": [{
+				"path": "home/home",
+				"style": {
+					"navigationBarTitleText": "公告列表"
+				}
+			}, {
+				"path": "xiangqing/xiangqing",
+				"style": {
+					"navigationBarTitleText": "公告详情"
+				}
+			}]
+		}, {
+			"root": "pagesPeisong",
+			"pages": [{
+				"path": "map/map",
+				"style": {
+					// "enablePullDownRefresh": true,
+					"navigationBarTitleText": "配送"
+					// "pullToRefresh": {
+					// 	"support": true,
+					// 	"color": "#000000", //小圈圈的颜色
+					// 	"style": "circle" //小圈圈的样式
+					// }
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+
+}

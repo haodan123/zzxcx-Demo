@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/relogin/relogin",
+    "pages/login/login",
+    "pages/test/test",
+    "pages/erbiao/erbiao"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesZhongzhi",
+      "pages": [
+        "nsbzck/nsbzck",
+        "czbzck/czbzck",
+        "spbzck/spbzck",
+        "scjh/scjh",
+        "shengchengsp/shengchengsp",
+        "shengchengspAdd/shengchengspAdd",
+        "nzruku/nzruku",
+        "nzrukuAdd/nzrukuAdd",
+        "nzchuku/nzchuku",
+        "nzchukuAdd/nzchukuAdd",
+        "zwruku/zwruku",
+        "zwrukuAdd/zwrukuAdd",
+        "zwchuku/zwchuku",
+        "zwchukuAdd/zwchukuAdd",
+        "nsrwxf/nsrwxf",
+        "nsrw/nsrw",
+        "nsrwzx/nsrwzx",
+        "shangxiaban/shangxiaban"
+      ]
+    },
+    {
+      "root": "pagesJiagong",
+      "pages": [
+        "jglcck/jglcck",
+        "cpchuku/cpchuku",
+        "cpchukuAdd/cpchukuAdd",
+        "cpruku/cpruku",
+        "cprukuAdd/cprukuAdd",
+        "jgruku/jgruku",
+        "jgrukuAdd/jgrukuAdd",
+        "jgchuku/jgchuku",
+        "jgchukuAdd/jgchukuAdd",
+        "jcjilu/jcjilu",
+        "jcjiluAdd/jcjiluAdd",
+        "jgsycj/jgsycj",
+        "jgsycjAdd/jgsycjAdd",
+        "scsp/scsp",
+        "scspAdd/scspAdd",
+        "yflck/yflck",
+        "scdd/scdd",
+        "scddAdd/scddAdd",
+        "scjh/scjh",
+        "scjhAdd/scjhAdd"
+      ]
+    },
+    {
+      "root": "pagesGonggao",
+      "pages": [
+        "home/home",
+        "xiangqing/xiangqing"
+      ]
+    },
+    {
+      "root": "pagesPeisong",
+      "pages": [
+        "map/map"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "darkmode": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取收货地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

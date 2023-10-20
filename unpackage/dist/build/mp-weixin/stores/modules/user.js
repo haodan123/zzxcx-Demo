@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),r=e.defineStore("useUser",(()=>{const r=e.ref();return{user:r,setUser:e=>{r.value=e},clearUser:()=>{r.value=null}}}),{persist:{storage:{getItem:r=>e.index.getStorageSync(r),setItem(r,s){e.index.setStorageSync(r,s)}}}});exports.useUserStore=r;

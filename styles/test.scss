@@ -1,0 +1,23 @@
+@mixin flexCenter {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@mixin flex($lyaout) {
+  display: flex;
+	align-items: $lyaout;
+	justify-content: $lyaout;
+}
+
+
+.flexCenter{
+	// @include flexCenter;
+	// @include flex(start);
+	@include flex(center);
+	margin: 0 auto ;
+}
+.test{
+	width: 500rpx;
+	height: 200rpx;
+}
+

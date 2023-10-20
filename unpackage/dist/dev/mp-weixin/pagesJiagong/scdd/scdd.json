@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "生产调度",
+  "usingComponents": {
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uv-empty": "../../uni_modules/uv-empty/components/uv-empty/uv-empty",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

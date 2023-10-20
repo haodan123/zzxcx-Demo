@@ -1,0 +1,301 @@
+
+
+.red{
+	color: red;
+}
+.search{
+	background-color: #fff;
+	margin-bottom: 20rpx;
+}
+// 标准库的头部 start
+.bzHeader{
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	.bzItem{
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		.text{
+			min-width: 100px;
+		}
+		.select{
+			// flex: 1 0 0;
+			flex: 1;
+		}
+	}
+}
+// 标准库的头部 end
+// 标准库的内容 start
+.bzContent{
+	position: relative;
+	width: 90%;
+	font-size: 28rpx;
+	margin: 0 auto;
+	margin-bottom: 20rpx;
+	padding: 20rpx;
+	display: flex;
+	flex-direction: column;
+	gap: 20rpx;
+	border-radius: 20rpx;
+	background-color: #fff;
+	.contentItem{
+		margin-bottom: 10px;
+		display: flex;
+		gap: 10px;
+		// align-items: center;
+		flex-direction: column;
+		.title{
+			font-size: 18px;
+		}
+		.neirong{
+			
+		}
+		.neirong-img{
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+			gap: 10px;
+			.image{
+				height: 100px;
+				image{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+// 标准库的内容 end
+.viewport{
+	position:relative;
+	background-color: #f4f4f4;
+	min-height: 100vh;
+}
+.gapBox{
+	height: 120rpx;
+}
+.showCard{
+	position: relative;
+	width: 90%;
+	font-size: 28rpx;
+	margin: 0 auto;
+	margin-bottom: 20rpx;
+	padding: 20rpx;
+	display: flex;
+	flex-direction: column;
+	gap: 20rpx;
+	border-radius: 20rpx;
+	background-color: #fff;
+	.title{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 80rpx;
+		border-bottom: 1rpx solid #ccc;
+	}
+	.card-item{
+		display: flex;
+		gap: 10rpx;
+		.item-text{
+			margin-left: 20rpx;
+		}
+		.item-key{
+			// width: 120rpx;
+			min-width: 120rpx;
+		}
+		.item-value{
+			flex: 1;
+		}
+	}
+	.card-btm{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 15rpx;
+		border: 1rpx solid #ccc;
+		background-color: #4999D0;
+		color: #fff;
+		width: 200rpx;
+		margin: 0 auto;
+		border-radius: 40rpx;
+	}
+	.card-tag{
+		padding: 15rpx 20rpx;
+		border: 1rpx solid #4999D0;
+		// background-color: #4999D0;
+		color: #4999D0;
+		position: absolute;
+		right: 20rpx;
+		top: 20rpx;
+		border-radius: 40rpx;
+	}
+}
+
+.addButton{
+	position: fixed;
+	bottom: 20rpx;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50%;
+	text-align: center;
+	border: 1rpx solid #ccc;
+	background-color: #4999D0;
+	color: #fff;
+padding: 15rpx;
+border-radius: 40rpx;
+}
+
+.addButton1{
+	position: fixed;
+	bottom: 20rpx;
+	left: 50%;
+	z-index: 9;
+	transform: translateX(-50%);
+	width: 50%;
+	text-align: center;
+	border: 1rpx solid #ccc;
+	background-color: #4999D0;
+	color: #fff;
+// padding: 15rpx;
+border-radius: 40rpx;
+}
+
+.formCard{
+	width: 90%;
+	font-size: 26rpx;
+	margin: 0 auto;
+	padding: 20rpx;
+	display: flex;
+	flex-direction: column;
+	gap: 20rpx;
+	background-color: #fff;
+	.mockItem{
+		margin-bottom: 22px;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		.label{
+			display: flex;
+			    flex-direction: row;
+			    align-items: center;
+			    text-align: left;
+			    font-size: 14px;
+			    color: #606266;
+			    height: 36px;
+			    padding: 0 12px 0 0;
+			    vertical-align: middle;
+			    flex-shrink: 0;
+			    box-sizing: border-box;
+		}
+	}
+}
+.box-y-center{
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.image-text{
+	text-align: left;
+	    font-size: 14px;
+	    color: #606266;
+}
+
+.saoma{
+	position: absolute;
+	right: 65rpx;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50rpx;
+	height: 50rpx;
+	z-index: 99;
+}
+.card-btn {
+		color: #fff;
+		border-radius: 10px;
+		padding: 5px 15px;
+		background-color: #4898D0;
+	}
+
+
+	@for $i from 0 through 50{
+		.m-#{$i}{
+			margin: $i*1px;
+		}
+		.ml-#{$i}{
+			margin-left: $i*1px;
+		}
+		.mt-#{$i}{
+			margin-top: $i*1px;
+		}
+		.mr-#{$i}{
+			margin-right: $i*1px;
+		}
+		.mb-#{$i}{
+			margin-bottom: $i*1px;
+		}
+		.p-#{$i}{
+			padding: $i*1px;
+		}
+		.pl-#{$i}{
+			padding-left: $i*1px;
+		}
+		.pt-#{$i}{
+			padding-top: $i*1px;
+		}
+		.pr-#{$i}{
+			padding-right: $i*1px;
+		}
+		.pb-#{$i}{
+			padding-bottom: $i*1px;
+		}
+	}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+$flex-jc: (start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+);
+$flex-ai: (start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch,
+);
+
+@each $key,
+$value in $flex-jc {
+  .jc-#{$key} {
+    justify-content: $value;
+  }
+}
+
+@each $key,
+$value in $flex-ai {
+  .ai-#{$key} {
+    align-items: $value;
+  }
+}

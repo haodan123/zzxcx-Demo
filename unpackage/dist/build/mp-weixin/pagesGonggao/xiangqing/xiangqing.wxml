@@ -1,0 +1,1 @@
+<view class="newsDetail data-v-a65bb14f"><view class="title data-v-a65bb14f">{{a}}</view><view class="subtitle data-v-a65bb14f"><view class="sub-left data-v-a65bb14f"></view><view class="sub-right data-v-a65bb14f">{{b}}</view></view><bctos-rich-text wx:if="{{c}}" class="data-v-a65bb14f" u-i="a65bb14f-0" bind:__l="__l" u-p="{{c}}"></bctos-rich-text></view>

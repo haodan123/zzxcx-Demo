@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "种鹿评定采集",
+  "usingComponents": {
+    "uni-search-bar": "../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uv-empty": "../../uni_modules/uv-empty/components/uv-empty/uv-empty"
+  }
+}

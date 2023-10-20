@@ -1,0 +1,48 @@
+//响应式scss
+
+// 断点的列表
+$breakpoints:(
+	'phone':(320px,480px),
+	'pad':(481px,768px),
+	'notbook':(769px,1024px),
+	'desktop':(1025px,1200px),
+	'tv':1201px,
+);
+
+// 响应式mixin
+;@mixin response-to ($breakname) {
+	$bp:map-get($breakpoints,$breakname); //map-get第一个参数是对象 第二个参数是对象的key
+  @if  type-of($bp)=='list' { //type-of($bp)=='list'判断选中的值是否是数组, 有两位数就是数组
+		$min:nth($bp,1);
+		$max:nth($bp,2);
+    @media (min-width:$min) and (max-width:$max) {
+      @content;
+    }
+  } @else {
+		// 不是数组 代表tv
+		@media (min-width:$bp)  {
+			@content;
+		}
+   
+  }
+};
+.header{
+	display: flex;
+	width: 100%;
+	@include response-to('pad'){
+		color: red;
+	}
+}
+
+@media (min-width:320px) and (max-width:480px) {
+};
+@media (min-width:481px) and (max-width:768px) {
+
+};
+@media (min-width:769px) and (max-width:1024px) {
+};
+@media (min-width:1025px) and (max-width:1200px) {
+};
+
+@media (min-width:1201px)  {
+};

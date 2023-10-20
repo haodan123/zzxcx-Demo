@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "上班",
+  "usingComponents": {
+    "uni-indexed-list": "../../uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list",
+    "uni-drawer": "../../uni_modules/uni-drawer/components/uni-drawer/uni-drawer",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-auploadimg": "../../components/uni-auploadimg/uni-auploadimg"
+  }
+}

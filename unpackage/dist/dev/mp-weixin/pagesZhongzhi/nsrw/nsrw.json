@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "农事任务",
+  "usingComponents": {
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uv-empty": "../../uni_modules/uv-empty/components/uv-empty/uv-empty",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

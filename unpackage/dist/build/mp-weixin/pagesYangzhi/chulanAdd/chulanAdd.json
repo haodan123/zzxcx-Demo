@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "开始出栏",
+  "usingComponents": {
+    "uani-datapicker": "../../components/uani-datapicker/uani-datapicker",
+    "uni-forms-item": "../../uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "uni-easyinput": "../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-auploadimg": "../../components/uni-auploadimg/uni-auploadimg",
+    "uni-forms": "../../uni_modules/uni-forms/components/uni-forms/uni-forms"
+  }
+}

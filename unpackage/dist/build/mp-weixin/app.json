@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/relogin/relogin",
+    "pages/login/login",
+    "pages/test/test",
+    "pages/erbiao/erbiao"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesYangzhi",
+      "pages": [
+        "chulan/chulan",
+        "chulanAdd/chulanAdd",
+        "fangyicj/fangyicj",
+        "fangyicjAdd/fangyicjAdd",
+        "lurongcj/lurongcj",
+        "lurongcjAdd/lurongcjAdd",
+        "luzhida/luzhida",
+        "luzhidaAdd/luzhidaAdd",
+        "yangzhicj/yangzhicj",
+        "yangzhicjAdd/yangzhicjAdd",
+        "yangzhijhck/yangzhijhck"
+      ]
+    },
+    {
+      "root": "pagesYuzhong",
+      "pages": [
+        "rulan/rulan",
+        "rulanAdd/rulanAdd",
+        "shengchanck/shengchanck",
+        "xuanyuck/xuanyuck",
+        "zhonglucj/zhonglucj",
+        "zhonglucjAdd/zhonglucjAdd",
+        "chushengxl/chushengxl",
+        "chushengxlAdd/chushengxlAdd",
+        "zhonglupz/zhonglupz",
+        "zhonglupzAdd/zhonglupzAdd",
+        "zhongluxl/zhongluxl",
+        "zhongluxlAdd/zhongluxlAdd",
+        "yimiaock/yimiaock",
+        "yaowuck/yaowuck",
+        "peifangck/peifangck"
+      ]
+    },
+    {
+      "root": "pagesBiaozhun",
+      "pages": [
+        "bingyi/bingyi",
+        "huanjing/huanjing",
+        "shengzhang/shengzhang",
+        "siwei/siwei",
+        "yangzhi/yangzhi",
+        "yuzhong/yuzhong"
+      ]
+    },
+    {
+      "root": "pagesGonggao",
+      "pages": [
+        "home/home",
+        "xiangqing/xiangqing"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "darkmode": true,
+  "usingComponents": {}
+}

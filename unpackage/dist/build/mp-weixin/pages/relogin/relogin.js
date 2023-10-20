@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={__name:"relogin",setup(o){const a=()=>{e.index.navigateTo({url:"/pages/login/login"})};return(o,n)=>({a:e.o(a)})}},a=e._export_sfc(o,[["__scopeId","data-v-300d4a3a"]]);wx.createPage(a);

@@ -1,0 +1,25 @@
+
+.ebbox.data-v-c105fc80 {
+		display: flex;
+		display: grid;
+		/*  声明列的宽度  */
+		grid-template-columns: repeat(2, 180px);
+		/* grid-template-rows: 150px 150px ; */
+		grid-gap: 5px;
+		justify-content: center;
+}
+.eb-item.data-v-c105fc80 {
+		border: 1px solid #4898D0;
+		color: #4898D0;
+		padding: 20rpx 0;
+		border-radius: 30rpx;
+		text-align: center;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+.activeEb.data-v-c105fc80 {
+		background-color: #4898D0;
+		color: #fff;
+}

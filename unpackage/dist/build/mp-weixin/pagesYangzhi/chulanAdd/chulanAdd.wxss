@@ -1,0 +1,1 @@
+.ebbox{display:flex;display:grid;grid-template-columns:repeat(2,100px);grid-gap:5px;justify-content:center}.eb-item{border:1px solid #4898D0;color:#4898d0;padding:20rpx 0;border-radius:30rpx;text-align:center}.activeEb{background-color:#4898d0;color:#fff}

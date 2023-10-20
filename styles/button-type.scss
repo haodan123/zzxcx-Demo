@@ -1,0 +1,29 @@
+ // @use 'sass:color';
+ 
+ $btnColors:#409eff , #67c23a , #e39827 , #f54343 , #6c6d71;
+ $btnNames:'primary','success','warning','danger','info';
+ 
+ // 循环$btnColors
+ @for $i from 1 through length($btnColors){
+	 // .btn.type-#{$i} {
+	 .btn.type-#{nth($btnNames,$i)} {
+	 	 // $color:#409eff;
+	 	 $color:nth($btnColors , $i ); //nth函数 从$btnColors中的下标中选中颜色
+	 	 background-color: $color;
+	 	 color: #fff;
+	 	 &:hover{
+	  	 // background-color: #73b8ff;
+	  	 background-color: lighten($color,10%);  //调用scss的方法让颜色变亮10%
+	 		};
+	 	 &:active{
+	  	 // background-color: #0d84ff;
+	  	 background-color: darken($color,10%);//调用scss的方法让颜色变暗10%
+	 		};
+	 	 &:disabled{
+	  	 background-color: lighten($color,20%);  //调用scss的方法让颜色变亮20%
+	 	 color: lighten($color,40%);  //调用scss的方法让颜色变亮40%
+	  };
+	  }
+ }
+
+ 
